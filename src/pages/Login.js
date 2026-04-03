@@ -86,7 +86,7 @@ function Login() {
         });
       }
 
-      navigate("/"); // ✅ FIXED
+      navigate("/"); 
     } catch (err) {
       console.error("GOOGLE ERROR:", err);
       showMessage(err.message);
@@ -116,7 +116,7 @@ function Login() {
 
               <div className="flex justify-center gap-3">
                 <img src={logo} alt="logo" className="w-[100px]" />
-                <h2 className="text-3xl font-bold text-secondary">Login</h2>
+                <h2 className="text-3xl mt-7 font-bold text-secondary">Login</h2>
               </div>
 
               <Input
